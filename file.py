@@ -2,7 +2,7 @@
 """
 Created on Wed Dec  1 21:09:00 1721
 
-@author: PRIYANK GANDHI
+@author:##
 """
 
 import matplotlib.pyplot as plt
@@ -14,7 +14,7 @@ import plotly.graph_objs as go
 import seaborn as snr
 from scipy.stats import pearsonr
 
-d1 = pd.read_csv('C:/Users/PRIYANK GANDHI/Desktop/AIT-580/Final Project/project.csv', na_values=["Manual Verification Required"], low_memory=False)
+d1 = pd.read_csv('project.csv', na_values=["Manual Verification Required"], low_memory=False)
 d1.head
 d1.dtypes
 d1.isnull().sum()
