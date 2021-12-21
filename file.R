@@ -20,12 +20,12 @@ library(usmap)
 library(micromapST)
 library(mltools)
 library(data.table)
-install.packages("C:/Users/PRIYANK GANDHI/Downloads\\fiftystater_1.0.1.tar.gz",
+install.packages(fiftystater_1.0.1.tar.gz",
                  repos = NULL, type = "source")
 library(fiftystater)
 
 #reading the data in:
-d<-read_csv('C:/Users/PRIYANK GANDHI/Desktop/AIT-580/Final Project/project.csv')
+d<-read_csv(project.csv')
 d[d$`Total Score`=="Manual Verification Required",]<- NA
 sum(is.na(d$`Total Score`))
 d %>%
